@@ -4,6 +4,28 @@ flutter cupertino data_picker.
 
 ## Getting Started
 
-For help getting started with Flutter, view our online [documentation](https://flutter.io/).
+![demo](screenshots/demo.png)
 
-For help on editing package code, view the [documentation](https://flutter.io/developing-packages/).
+## Usage
+
+```  
+void _showDataPicker() {
+       final bool showTitleActions = true;
+       DataPicker.showDatePicker(
+         context,
+         showTitleActions: showTitleActions,
+         locale: 'zh',
+         datas: ['男', '女'],
+         title: '选择性别',
+         onChanged: (data) {
+           print('onChanged date: $data');
+         },
+         onConfirm: (data) {
+           print('onConfirm date: $data');
+         },
+       );
+     }
+```
+
+
+Fork by https://github.com/wuzhendev/flutter-cupertino-date-picker

@@ -1,8 +1,8 @@
 name: flutter_cupertino_data_picker
 description: flutter cupertino data_picker.
 version: 0.0.1
-author: SimonChen
-homepage:
+author: SimonChen<admin@ithome.me>
+homepage: https://github.com/cikichen/flutter_cupertino_data_picker
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
