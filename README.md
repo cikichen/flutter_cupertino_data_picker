@@ -4,7 +4,7 @@ flutter cupertino data_picker.
 
 ## Getting Started
 
-![demo](screenshots/demo.png)
+![Screenshot](screenshots/demo.png)
 
 ## Usage
 
