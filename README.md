@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/badge/pub-0.7.0-brightgreen.svg)](https://pub.dartlang.org/packages/flutter_cupertino_data_picker)
+[![pub package](https://img.shields.io/badge/pub-0.8.0-brightgreen.svg)](https://pub.dartlang.org/packages/flutter_cupertino_data_picker)
 
 # flutter_cupertino_data_picker
 
@@ -35,7 +35,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  flutter_cupertino_data_picker: ^0.7.0
+  flutter_cupertino_data_picker: ^0.8.0
 ```
 
 2. Install it

@@ -14,9 +14,7 @@ const double _kDatePickerItemHeight = 36.0;
 const double _kDatePickerFontSize = 18.0;
 
 class DataPicker {
-  ///
-  /// Display date picker bottom sheet.
-  ///
+
   static void showDatePicker(
     BuildContext context, {
     bool showTitleActions: true,
@@ -179,19 +177,9 @@ class _DatePickerState extends State<_DataPickerComponent> {
   }
 
   void _setData(int index) {
-//    int _index = index + 1;
     if (_initialIndex != index) {
       _initialIndex = index;
       setState(() {});
-//      int dateCount = _calcDateCount();
-//      if (_dateCountOfMonth != dateCount) {
-//        setState(() {
-//          _dateCountOfMonth = dateCount;
-//        });
-//      }
-//      if (_currentDate > dateCount) {
-//        _currentDate = dateCount;
-//      }
       _notifyDateChanged();
     }
   }
@@ -254,24 +242,6 @@ class _DatePickerState extends State<_DataPickerComponent> {
   }
 
   Widget _renderItemView() {
-//    List<Widget> pickers = new List<Widget>();
-//    List<String> formatters = widget.dateFormat.split('-');
-//    for (int i = 0; i < formatters.length; i++) {
-//      var format = formatters[i];
-//      if (format.contains("yy")) {
-//        pickers.add(_renderYearsPickerComponent(yearAppend));
-//      } else if (format.contains("mm")) {
-//        pickers.add(_renderMonthsPickerComponent(monthAppend, format: format));
-//      } else if (format.contains("dd")) {
-//        pickers.add(_renderDaysPickerComponent(dayAppend));
-//      }
-//    }
-//
-//    return Row(
-//      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//      children: pickers,
-//    );
-
     return _renderDataPickerComponent(widget.suffix);
   }
 
