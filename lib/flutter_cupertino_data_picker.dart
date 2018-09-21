@@ -14,7 +14,6 @@ const double _kDatePickerItemHeight = 36.0;
 const double _kDatePickerFontSize = 18.0;
 
 class DataPicker {
-
   static void showDatePicker(
     BuildContext context, {
     bool showTitleActions: true,
