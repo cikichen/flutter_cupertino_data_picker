@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/badge/pub-0.8.3-brightgreen.svg)](https://pub.dartlang.org/packages/flutter_cupertino_data_picker)
+[![pub package](https://img.shields.io/badge/pub-0.8.4-brightgreen.svg)](https://pub.dartlang.org/packages/flutter_cupertino_data_picker)
 
 # flutter_cupertino_data_picker
 
@@ -17,8 +17,8 @@ void _showDataPicker() {
          context,
          showTitleActions: showTitleActions,
          locale: 'zh',
-         datas: ['男', '女'],
-         title: '选择性别',
+         datas: ['dog', 'cat'],
+         title: 'select',
          onChanged: (data) {
            print('onChanged date: $data');
          },
@@ -35,7 +35,7 @@ Add this to your package's pubspec.yaml file:
 
 ```
 dependencies:
-  flutter_cupertino_data_picker: ^0.8.3
+  flutter_cupertino_data_picker: ^0.8.4
 ```
 
 2. Install it
