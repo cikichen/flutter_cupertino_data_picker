@@ -68,7 +68,7 @@ class _DatePickerRoute<T> extends PopupRoute<T> {
   final DateChangedCallback onConfirm;
   final ThemeData theme;
   final String locale;
-  fianl String prefix;
+  final String prefix;
   final String suffix;
   final String title;
 
