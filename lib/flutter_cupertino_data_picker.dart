@@ -39,7 +39,7 @@ class DataPicker {
           prefix: prefix,
           suffix: suffix,
           title: title,
-          theme: Theme.of(context, shadowThemeOnly: true),
+          theme: Theme.of(context),
           dataStyle: dataStyle,
           barrierLabel: MaterialLocalizations.of(context).modalBarrierDismissLabel,
         ));
@@ -122,7 +122,6 @@ class _DatePickerRoute<T> extends PopupRoute<T> {
 
 class _DataPickerComponent extends StatefulWidget {
   _DataPickerComponent({
-    Key key,
     @required this.route,
     this.initialData: 0,
     this.datas,
@@ -265,7 +264,7 @@ class _DatePickerState extends State<_DataPickerComponent> {
         children: <Widget>[
           Container(
             height: _kDatePickerTitleHeight,
-            child: FlatButton(
+            child: TextButton(
               child: Text(
                 '$cancel',
                 style: TextStyle(
@@ -289,7 +288,7 @@ class _DatePickerState extends State<_DataPickerComponent> {
           ),
           Container(
             height: _kDatePickerTitleHeight,
-            child: FlatButton(
+            child: TextButton(
               child: Text(
                 '$done',
                 style: TextStyle(
