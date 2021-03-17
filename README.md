@@ -1,8 +1,6 @@
 [![pub package](https://img.shields.io/badge/pub-0.8.6-brightgreen.svg)](https://pub.dartlang.org/packages/flutter_cupertino_data_picker)
 
-# flutter_cupertino_data_picker
-
-flutter cupertino data_picker.
+![flutter_cupertino_data_picker](https://socialify.git.ci/cikichen/flutter_cupertino_data_picker/image?description=1&descriptionEditable=flutter%E6%95%B0%E6%8D%AE%E9%80%89%E6%8B%A9%E5%99%A8&font=Inter&forks=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
 
 ## Getting Started
 
